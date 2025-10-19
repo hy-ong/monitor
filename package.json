@@ -1,0 +1,65 @@
+{
+  "name": "@hy-ong/monitor",
+  "version": "0.0.1",
+  "description": "A complete TypeScript implementation of Ruby's Monitor class for synchronization in async/await code",
+  "keywords": [
+    "monitor",
+    "mutex",
+    "lock",
+    "synchronization",
+    "concurrency",
+    "async",
+    "await",
+    "condition-variable",
+    "ruby",
+    "typescript"
+  ],
+  "homepage": "https://github.com/hy-ong/monitor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hy-ong/monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hy-ong/monitor/issues"
+  },
+  "author": {
+    "name": "Ong Hoe Yuan",
+    "email": "onghoeyuan0214@outlook.com",
+    "url": "https://github.com/hy-ong"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bunx tsc --build",
+    "test": "bun test",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "dev": "bunx tsc --watch",
+    "prepublishOnly": "bun run clean && bun run build && bun test"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@types/bun": "1.3.0",
+    "eslint": "^9.37.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
+  }
+}

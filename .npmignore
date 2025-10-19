@@ -1,0 +1,42 @@
+# Source files (only publish dist)
+/src
+/test
+
+# Build config
+tsconfig.json
+*.tsbuildinfo
+
+# IDE
+.vscode
+.idea
+.claude
+*.iml
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+
+# Code quality
+.eslintrc*
+.prettierrc*
+.prettierignore
+eslint.config.js
+
+# Development
+node_modules
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Testing
+/coverage
+
+# Misc
+.env
+.env.*
