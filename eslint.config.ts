@@ -1,5 +1,5 @@
-import eslintJs from "@eslint/js"
-import eslintTs from "typescript-eslint"
+import eslintJs from "@eslint/js";
+import eslintTs from "typescript-eslint";
 
 export default [
   eslintJs.configs.recommended,
@@ -17,6 +17,6 @@ export default [
     ...eslintTs.configs.disableTypeChecked,
   },
   {
-    ignores: ["node_modules/**", "dist/**", "*.config.js"],
+    ignores: ["node_modules/**", "dist/**", "*.config.ts"],
   },
-]
+];
