@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "bun:test"
-import { Monitor, MonitorMixin } from "@hy-ong/monitor"
+import { Monitor, MonitorMixin } from "@hy_ong/monitor"
 
 describe("Monitor", () => {
   let monitor: Monitor

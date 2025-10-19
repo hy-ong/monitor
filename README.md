@@ -1,4 +1,4 @@
-# @hy-ong/monitor
+# @hy_ong/monitor
 
 A complete TypeScript implementation of Ruby's Monitor class for synchronization in async/await code.
 
@@ -16,13 +16,13 @@ A complete TypeScript implementation of Ruby's Monitor class for synchronization
 ## Installation
 
 ```bash
-bun add @hy-ong/monitor
+bun add @hy_ong/monitor
 ```
 
 Or with npm:
 
 ```bash
-npm install @hy-ong/monitor
+npm install @hy_ong/monitor
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ npm install @hy-ong/monitor
 ### Basic Synchronization
 
 ```typescript
-import {Monitor} from '@hy-ong/monitor';
+import {Monitor} from '@hy_ong/monitor';
 
 const monitor = new Monitor();
 let counter = 0;
@@ -268,7 +268,7 @@ await monitored.synchronize(async () => {
 ### Extending Classes with MonitorMixin
 
 ```typescript
-import {MonitorMixin} from '@hy-ong/monitor';
+import {MonitorMixin} from '@hy_ong/monitor';
 
 class Counter extends MonitorMixin {
   private value = 0;

@@ -10,7 +10,7 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "@hy-ong/monitor": ["./src/index.ts"]
+      "@hy_ong/monitor": ["./src/index.ts"]
     }
   },
   "include": [
