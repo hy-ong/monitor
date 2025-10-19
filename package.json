@@ -1,6 +1,6 @@
 {
   "name": "@hy_ong/monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A complete TypeScript implementation of Ruby's Monitor class for synchronization in async/await code",
   "keywords": [
     "monitor",
