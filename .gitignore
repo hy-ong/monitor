@@ -20,6 +20,9 @@ dist/
 *.swo
 *~
 
+# Wiki drafts
+.wiki/
+
 # IDE
 .vscode/*
 !.vscode/settings.json
